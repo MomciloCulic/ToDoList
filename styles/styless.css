@@ -1,0 +1,121 @@
+* {
+    color: #706233;
+    background-color: #FEFAE0;
+    font-family: 'Bree Serif', serif;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  h2{
+    margin-bottom: 0px;
+  }
+  
+  .polje {
+    text-align: center;
+    padding: 20px;
+    margin-top: 120px;
+    position: relative;
+  }
+  
+  #myInput {
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+  }
+  
+  #btn {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+    background-color: #b99470;
+    text-align: center;
+    position: relative;
+    top: -1px;
+  }
+  
+  ul {
+    position: absolute;
+    left: 48%;
+    transform: translateX(-50%);
+    list-style-type: disc;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center; 
+    font-size: 20px;
+    width: 350px;
+    padding-left: 5px;
+    margin-bottom: 8px;
+    /* border: 2px groove; */
+    border-radius: 5px;
+    position: relative;
+    list-style-type: none;
+  }
+  
+  li::before {
+    content: '\2022'; 
+    color: #706233;
+    font-size: 20px; 
+    margin-right: 5px; 
+  }
+
+  li span {
+    display: inline-block;
+    max-width: 280px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .delete-btn {
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: lightgreen;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    right: -65px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .deleted {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  
+  .clear-btn {
+    position: relative;
+    left: 150px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #e74c3c;
+    color: white;
+    cursor: pointer;
+    display: none;
+    margin-bottom: 10px;
+  }

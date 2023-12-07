@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styless.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:wght@100&family=Solway&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/347b68b87a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div id="div1" class="polje">
+      <h1>
+        Enter your task below
+        <i
+          class="fa-solid fa-arrow-down fa-shake strelica"
+          style="color: #706233"
+        ></i>
+      </h1>
+      <input
+        type="text"
+        id="myInput"
+        placeholder="What do you need to do today?"
+      />
+      <button type="button" id="btn">Add</button>
+      <h2>Your tasks:</h2>
+      <ul id="taskList"></ul>
+      <div class="button-container">
+        <button type="button" id="clearBtn" class="clear-btn">
+          Clear all tasks
+        </button>
+      </div>
+    </div>
+
+    <footer>Copyright © Momcilo Culic</footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
